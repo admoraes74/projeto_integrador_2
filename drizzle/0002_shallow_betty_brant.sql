@@ -1,0 +1,1 @@
+ALTER TABLE `provider_profiles` DROP INDEX `provider_profiles_userId_unique`;

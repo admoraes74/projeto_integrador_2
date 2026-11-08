@@ -1,0 +1,1 @@
+ALTER TABLE `provider_profiles` ADD `isComplete` boolean DEFAULT true NOT NULL;

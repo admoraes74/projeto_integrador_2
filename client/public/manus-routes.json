@@ -1,0 +1,1 @@
+{"routes":[{"path":"/","title":"Construção Salto"},{"path":"/profissional/:id","title":"Perfil do profissional"},{"path":"/cadastro","title":"Cadastro do profissional"},{"path":"/cadastro/servicos","title":"Serviços e fotos do profissional"},{"path":"/painel","title":"Painel do prestador"}]}
