@@ -1,14 +1,3 @@
 # Construção Salto
 
-React / Express / tRPC / Drizzle starter, adapted from the Sandbox web-db-user template.
-
-- `pnpm dev`: development server; honors `PORT` (default 3000).
-- `pnpm build` / `pnpm start`: build and serve `dist/index.js` and `dist/public/`.
-- `pnpm db:migrate`: apply checked-in migrations. `pnpm db:push`: generate and apply new schema changes.
-- `pnpm check` / `pnpm test`: types and application tests.
-
-Start with the Webdev skill's default-template guide. Platform login, storage, payments and service contracts live in its shared references; read the relevant capability before extending its helper.
-
-`server/_core/publicConfig.ts` exposes only named public runtime values. Private keys stay server-side. The platform serves managed `/manus-storage/` assets; the application does not register a second proxy.
-
-Platform configuration is readable and editable through `webdev.config`. Default settings are initial values, not enforced constraints. The agent may modify the files, commands and configuration or follow the flexible guide for another stack.
+O presente trabalho tem como objetivo o desenvolvimento de uma plataforma digital voltada à conexão entre moradores e prestadores de serviços da construção civil no município de Salto (SP), especificamente nas comunidades de Nair Maria e Jardim Imperial. A proposta surge a partir da identificação de dificuldades enfrentadas tanto por moradores, na busca por profissionais confiáveis, quanto por trabalhadores autônomos, na divulgação de seus serviços, frequentemente restritos a indicações informais ou redes sociais. A metodologia adotada baseou-se em levantamento bibliográfico, análise do contexto local e interação direta com a comunidade, por meio de visitas e diálogos com moradores e profissionais da área. Essas etapas permitiram validar a existência do problema e compreender suas principais características, evidenciando a necessidade de uma solução tecnológica acessível e eficiente. Como resultado, propõe-se o desenvolvimento de um site comunitário que possibilite o cadastro de profissionais, divulgação de serviços, inserção de portfólios e avaliação por usuários, promovendo maior transparência e confiabilidade nas contratações. Além disso, a plataforma permitirá aos moradores realizar buscas por categorias específicas, facilitando o acesso a serviços essenciais. O projeto está alinhado ao tema norteador da UNIVESP, ao utilizar tecnologia da informação para propor uma solução inovadora que contribui para o desenvolvimento social e econômico da comunidade, incentivando a inclusão digital e a organização dos serviços locais. Dessa forma, espera-se que a plataforma atue como um instrumento facilitador da comunicação entre oferta e demanda, fortalecendo a economia local e promovendo benefícios diretos à população.
